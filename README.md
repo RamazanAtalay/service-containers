@@ -1,8 +1,7 @@
-# 01_02-service-containers
-Use these files to test a service container.
+# 02-05 Solution: Use a matrix strategy to test an application
+Use these files to analyze one approach to solving the challenge.
 
 1. Create a new repo.
-2. Add the files from this directory to the root of the new repo; note there may be a .gitignore file that is hidden...add that file as well.
-3. Move the file `service-container.yml` into the `.github/workflows` directory in the new repo.
-4. Once the file is commited, the workflow should be triggered by a `push` event.
-5. Confirm the workflow runs as expected and includes output for a step named `Initialize containers`.
+1. Add the files from this directory to the root of the new repo.
+1. Move the `python-workflow.yml` file into the `.github/workflows` directory in the new repo.
+1. Check the **Actions** tab.  The workflow has a push trigger so it should have run after the workflow file was committed.  The workflow also has a dispatch trigger that you can use to run the workflow without modifying any files.
